@@ -3,8 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: >
+  UAE Rhodes Scholar<br>
   Research Assistant at <a href='https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-artificial-intelligence-and-robotics.html'>Center of AI and Robotics</a>.<br>
-  Incoming PhD Student at the <a href='https://statml.io'>University of Oxford</a>.
+  Incoming StatML PhD Student at the <a href='https://statml.io'>University of Oxford</a>.
 
 
 profile:

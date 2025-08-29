@@ -180,10 +180,14 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1rem;     /* like normal text but bold */
+    font-weight: 600;    /* keep bold but not oversized */
+    line-height: 1.3;    /* tighter spacing */
   }
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    font-size: 1rem;     /* like normal text but bold */
   }
 }
 
