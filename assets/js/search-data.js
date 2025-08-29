@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-inverge-paper-review",
+        },{id: "post-timing-attacks-on-implementations-of-diffie-hellman-rsa-dss-and-other-systems-paper-review",
+        
+          title: "Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems Paper Review...",
+        
+        description: "My review and explanation of paper on timing attacks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Timing_Attacks_review/";
+          
+        },
+      },{id: "post-inverge-paper-review",
         
           title: "InVERGe Paper Review",
         
@@ -46,6 +57,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/InVerge_paper_review/";
+          
+        },
+      },{id: "post-epic-paper-review",
+        
+          title: "EPIC Paper Review",
+        
+        description: "My review and explanation of the EPIC Paper.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/EPIC_review/";
           
         },
       },{id: "books-the-godfather",
@@ -115,7 +137,37 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-teaching-on-an-executive-education-program-in-oxford-to-a-delegation-from-south-korea",
           title: 'I will be teaching on an executive education program in Oxford to a...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-reliable-amp-intuitive-upper-limb-prosthetic-control-system",
+          title: 'Reliable &amp;amp; Intuitive Upper-Limb Prosthetic Control System',
+          description: "This was my Capstone (graduation) Project as a Computer Engineer from NYU Abu Dhabi.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-music-classification-model",
+          title: 'Music Classification Model',
+          description: "This was my final project for the infamous Fundamentals of Machine Learning Class @NYU Courant &amp; Center of Data Science",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-autonomous-vision-based-line-following-robot",
+          title: 'Autonomous Vision-Based Line Following Robot',
+          description: "This was our final embedded systems project.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-convkan3d",
+          title: 'ConvKan3D',
+          description: "Python package for 3D convolutional layers using Kolmogorov-Arnold Networks (KANs).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-pytorch4d",
+          title: 'PyTorch4D',
+          description: "A set of Pytorch compatible modules for use with 4D tensors.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
+            },},{id: "projects-memomate",
+          title: 'MemoMate',
+          description: "multi-platform memo tracker.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15_project/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
