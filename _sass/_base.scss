@@ -35,6 +35,10 @@ table {
   }
 }
 
+.clearfix p {
+  font-size: 0.80rem;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -194,15 +198,18 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  text-align: center;
 
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.6rem;
+    text-align: center;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0 auto; 
     }
   }
 }
@@ -241,6 +248,20 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.post ol,
+.post ul {
+  font-size: 0.80rem;       // match paragraph font size
+  line-height: 1.5;          // consistent line spacing
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;     // reduce indentation
+}
+
+.post li {
+  margin-bottom: 0.4rem;     // reduce vertical gap between items
+}
+
+
 // Navbar customization
 
 .navbar {
@@ -248,6 +269,9 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-size: 0.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .navbar .dropdown-menu {
@@ -285,9 +309,14 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
 
   .navbar-nav .nav-item .nav-link {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
     color: var(--global-text-color);
 
     &:hover {
@@ -352,6 +381,8 @@ ul.task-list input[type="checkbox"] {
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
+    height: 1.5px;
+    width: 18px;
   }
 
   .top-bar {
@@ -581,6 +612,7 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  font-size: 2.15rem;
 }
 
 .post-list {
@@ -929,6 +961,11 @@ html.transition *:after {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  .desc {
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
 
