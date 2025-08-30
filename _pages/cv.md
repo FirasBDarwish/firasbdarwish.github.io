@@ -11,12 +11,10 @@ description: This is the latest CV of Firas Darwish.
 ---
 
 <div style="height: 100vh; max-height: calc(100vh - 140px);">
-  <iframe
-    src="/assets/pdf/FirasDarwish_CV_Sep2025.pdf"
-    width="100%"
-    height="100%"
-    style="border: none;"
-  ></iframe>
+  <iframe 
+    src="/assets/pdfjs/web/viewer.html?file=/assets/pdf/FirasDarwish_CV_Sep2025.pdf" 
+    width="100%" height="800" style="border:none;">
+  </iframe>
 </div>
 
 <p style="margin-top:1rem;">

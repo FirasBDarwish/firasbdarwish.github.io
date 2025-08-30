@@ -5,7 +5,7 @@ date: 2025-08-29
 description: "My review and explanation of the InVERGe Paper."
 tags: slides
 categories: review
-thumbnail: assets/img/inVERGe_cover.png
+thumbnail: assets/img/InVERGe_cover.png
 published: true
 ---
 
