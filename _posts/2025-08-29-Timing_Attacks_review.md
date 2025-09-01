@@ -4,7 +4,7 @@ title: "Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other
 date: 2025-08-29
 description: "My review and explanation of paper on timing attacks."
 tags: slides
-categories: review
+categories: reviews
 thumbnail: assets/img/Timing_Attacks_cover.png
 published: true
 ---
