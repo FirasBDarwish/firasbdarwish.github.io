@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Am I a Researcher or Salesperson?"
+title: "Am I a Researcher or a Salesperson?"
 date: 2025-09-01
 description: Can you sell your ideas?
 tags: random
