@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-am-i-a-researcher-or-salesperson",
+        },{id: "post-am-i-a-researcher-or-a-salesperson",
         
-          title: "Am I a Researcher or Salesperson?",
+          title: "Am I a Researcher or a Salesperson?",
         
         description: "Can you sell your ideas?",
         section: "Posts",
