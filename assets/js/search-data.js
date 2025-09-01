@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-timing-attacks-on-implementations-of-diffie-hellman-rsa-dss-and-other-systems-paper-review",
+        },{id: "post-am-i-a-researcher-or-salesperson",
+        
+          title: "Am I a Researcher or Salesperson?",
+        
+        description: "Can you sell your ideas?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/reseacher_or_salesman/";
+          
+        },
+      },{id: "post-timing-attacks-on-implementations-of-diffie-hellman-rsa-dss-and-other-systems-paper-review",
         
           title: "Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems Paper Review...",
         
