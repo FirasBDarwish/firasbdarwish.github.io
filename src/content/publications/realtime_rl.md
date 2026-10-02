@@ -9,7 +9,7 @@ authors:
 equalContribution:
   - Aneesh Muppidi
   - Firas Darwish
-venue: "Preprint"
+venue: "NeurIPS"
 year: 2026
 image: "/images/publications/pacman_gate.gif"
 featured: true
