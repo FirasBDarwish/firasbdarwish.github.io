@@ -4,7 +4,7 @@ description: "These are some research thoughts and directions for combining late
 date: 2026-09-19
 tags: ["latent action models", "world models", "robot control"]
 type: "research-thought"
-draft: false
+draft: true
 featured: true
 ---
 
