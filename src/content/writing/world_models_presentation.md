@@ -5,6 +5,6 @@ date: 2025-11-06
 type: "presentation"
 file: "/files/WorldModels_StatML_presentation.pdf"
 tags: ["slides", "world models"]
-draft: false
+draft: true
 featured: true
 ---
